@@ -1,8 +1,25 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body{
+    margin:auto;
+}
 
-*/
+.navegador{
+    display: block
+}
+.logo{
+   width: 200px;
+   padding-top: 2rem;
+   padding-left: 2rem;
+}
+
+.listado-entrada{
+    list-style: none;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+.entrada{
+    height: 800px;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+}
