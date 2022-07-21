@@ -2,24 +2,43 @@
 body{
     margin:auto;
 }
+h1{
+    color:white;
+    text-align: center;
+    padding-bottom: 10rem;
+    padding-top: 25rem;
+}
 
-.navegador{
-    display: block
+.entrada p{
+    color:white;
+    text-size-adjust: 38px;
+    text-align: center;
+
 }
 .logo{
    width: 200px;
    padding-top: 2rem;
    padding-left: 2rem;
 }
-
+.navegador{
+    display: inline flex;
+    align-content:space-between;
+    flex-direction: row;
+    
+    
+}
 .listado-entrada{
     list-style: none;
     display: inline-flex;
+    
+}
+.listado-entrada li{
+    display: flex;
     align-items: flex-end;
-    justify-content: end;
+    margin-left: 80px;
 }
 .entrada{
-    height: 800px;
+    height: 900px;
     background-image: url("../images/landing.jpg");
     background-size: cover;
 }
