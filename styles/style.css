@@ -18,8 +18,8 @@ h1{
 }
 .logo{
    width: 200px;
+   padding-left: 2rem;
    padding-top: 2rem;
-   padding-left: 6rem;
 }
 #navegador ul li {
     background-color:white;
@@ -87,8 +87,8 @@ h1{
     padding-top:0.5rem;
     font-size: 18px;  
     padding-bottom: 1.5rem;
-    text-decoration: #fff;
-    color:#fff
+    color:#fff;
+    text-decoration: none;
    
 }
 
@@ -119,4 +119,17 @@ h1{
 
 @media (min-width:763px){
 
+
+#navegador{
+ display: flex;
+ align-content: space-between;
+ align-items: center;
+
 }
+
+#navegador ul{
+    padding-left: 30rem;
+    padding-top: 2rem;
+}
+
+ }
