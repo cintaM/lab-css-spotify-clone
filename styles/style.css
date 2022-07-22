@@ -134,11 +134,17 @@ h1{
 
 #articles p {
     display: flex;
-    text-justify: justify;
+    text-justify: left;
 }
 
 #boxes p{
-    display: flex;
+    display: block;
     text-align: center;
+}
+
+#articles{
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 7rem;
 }
  }
