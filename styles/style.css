@@ -132,4 +132,13 @@ h1{
     padding-top: 2rem;
 }
 
+#articles p {
+    display: flex;
+    text-justify: justify;
+}
+
+#boxes p{
+    display: flex;
+    text-align: center;
+}
  }
