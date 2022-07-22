@@ -1,12 +1,13 @@
 
 body{
     margin:auto;
+    font-family: 'Roboto', sans-serif;
 }
 h1{
     color:white;
     text-align: center;
     padding-bottom: 2rem;
-    padding-top: 15rem;
+    padding-top: 12rem;
 }
 
 .entrada p{
@@ -18,11 +19,11 @@ h1{
 .logo{
    width: 200px;
    padding-top: 2rem;
-   padding-left: 2rem;
+   padding-left: 6rem;
 }
-
 #navegador ul li {
     background-color:white;
+    padding-left: 0.5rem;
 }
 
 #navegador ul {
@@ -44,6 +45,8 @@ h1{
     height: 500px;
     background-image: url("../images/landing.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .music{
@@ -76,20 +79,36 @@ h1{
 #articles {
     background-color: #00B172;
     color:#fff;
-    padding-left: 2.5rem;
 }
 
 #articles h4{
-    
-
+    text-align: center;
+    padding-top:0.5rem;
+    text-decoration: dotted #fff;
+    text-shadow: #fff;
+   
 }
+
+
 #articles h3{
     text-decoration: underline #fff;
     padding-top: 1rem;
+    padding-left: 2rem;
+    text-size-adjust: 25px;
+    text-align: center;
 }
 
 #articles p {
     text-align: left;
-    padding-right: 3rem;
     word-spacing: 0.5rem;
+    text-align: center;
+    padding-right:2rem;
+}
+
+#articles p{
+    display: none;
+}
+
+#boxes p{
+    display:none;
 }
