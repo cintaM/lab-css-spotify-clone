@@ -24,6 +24,7 @@ h1{
 #navegador ul li {
     background-color:white;
     padding-left: 0.5rem;
+    color: black;
 }
 
 #navegador ul {
@@ -84,8 +85,10 @@ h1{
 #articles h4{
     text-align: center;
     padding-top:0.5rem;
-    text-decoration: dotted #fff;
-    text-shadow: #fff;
+    font-size: 18px;  
+    padding-bottom: 1.5rem;
+    text-decoration: #fff;
+    color:#fff
    
 }
 
@@ -96,6 +99,7 @@ h1{
     padding-left: 2rem;
     text-size-adjust: 25px;
     text-align: center;
+    font-size: 25px;
 }
 
 #articles p {
@@ -111,4 +115,8 @@ h1{
 
 #boxes p{
     display:none;
+}
+
+@media (min-width:763px){
+
 }
