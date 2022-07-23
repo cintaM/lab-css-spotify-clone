@@ -1,18 +1,17 @@
 
 body{
-    margin:auto;
+    margin:0;
     font-family: 'Roboto', sans-serif;
 }
 h1{
     color:white;
     text-align: center;
-    padding-bottom: 2rem;
-    padding-top: 12rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
 }
 
 .entrada p{
     color:white;
-    text-size-adjust: 38px;
     text-align: center;
 
 }
@@ -20,10 +19,10 @@ h1{
    width: 200px;
    padding-left: 2rem;
    padding-top: 2rem;
+   padding-bottom: 1rem;
 }
 #navegador ul li {
     background-color:white;
-    padding-left: 0.5rem;
     color: black;
 }
 
@@ -31,15 +30,21 @@ h1{
   list-style:none;
   margin:0;
   padding:0;
+  display: flex;
+  align-items: center;
 }
 
 #navegador ul a {
-  display:inline-block;
+  display:inline-flex;
   text-decoration:none;
-  font-weight:400;
-  font-size:15px;
-  padding:10px;
+  padding: 16px; 
   letter-spacing:1px;
+
+}
+
+#navegador{
+    display:flex;
+    flex-direction: column;
 }
 
 .entrada{
@@ -116,35 +121,58 @@ h1{
 #boxes p{
     display:none;
 }
-
+.app{
+    display:none;
+}
+.logo-blanco{
+    width: 20rem;
+    image-rendering:crisp-edges;
+    object-position: 150px 50px ;
+}
 @media (min-width:763px){
 
 
 #navegador{
- display: flex;
+ display: inline flex;
  align-content: space-between;
  align-items: center;
 
 }
-
 #navegador ul{
     padding-left: 30rem;
     padding-top: 2rem;
 }
-
+#articles h4{
+    display: flex;
+    align-items: flex-start;
+    padding-left: 3rem;
+}
+#articles h3  {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 3rem;
+}
 #articles p {
     display: flex;
-    text-justify: left;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 3rem;
+    padding-right: 50rem;
 }
 
-#boxes p{
-    display: block;
-    text-align: center;
+.todos-boxes {
+    display: inline-flex;
+    align-items: center;
+    align-content: space-around;
 }
 
-#articles{
-    background-image: url(../images/spotify-icon-white.png);
-    background-repeat: no-repeat;
-    background-size: 7rem;
+.boxes1{
+    padding: 5rem;
 }
- }
+.boxes2{
+  padding: 5rem;
+}
+.boxes3{
+    padding: 5rem;
+}
+}
