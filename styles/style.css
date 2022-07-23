@@ -160,6 +160,9 @@ h1{
     padding-right: 50rem;
 }
 
+#boxes p {
+    display: flex;
+}
 .todos-boxes {
     display: inline-flex;
     align-items: center;
@@ -174,5 +177,21 @@ h1{
 }
 .boxes3{
     padding: 5rem;
+}
+
+#navegador {
+    display: flex;
+    flex-direction: row;
+}
+
+#articles {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    align-content: center;
+}
+.logo-blanco{
+    width: 50px;
+
 }
 }
